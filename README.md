@@ -54,7 +54,7 @@ A simple messaging web application built with Scala 3, featuring a backend in HT
 
 2. **Start the backend server (which also serves the frontend):**
     ```sh
-    sbt run
+    sbt backend/run
     ```
     The backend will automatically build the Scala.js frontend as part of its run command.
 
